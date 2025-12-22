@@ -1,0 +1,39 @@
+// {
+//   "compilerOptions": {
+//     "ignoreDeprecations": "6.0",
+//     "target": "ESNext",
+//     "module": "ESNext",
+//     "moduleResolution": "node16",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "outDir": "./dist"
+//   },
+//   "include": ["src"]
+// }
+
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "NodeNext",
+//     "moduleResolution": "nodeNext",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "outDir": "./dist"
+//   },
+//   "include": ["src"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}

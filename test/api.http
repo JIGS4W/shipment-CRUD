@@ -1,0 +1,181 @@
+###
+GET http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "id": "1",
+  "username": "admin",
+  "password": "admin",
+  "firstname": "admin",
+  "lastname": "admin"
+}
+
+###
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "username": "user01",
+  "password": "user123",
+  "firstname": "user01firstname",
+  "lastname": "user01lastname"
+}
+
+###
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "password": "user123",
+  "firstname": "user01firstname",
+  "lastname": "user01lastname"
+}
+
+# ###
+# GET http://localhost:3000/api/role
+
+###
+GET http://localhost:3000/api/user/10
+###
+GET http://localhost:3000/api/role
+###
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@doe.com"
+}
+
+###
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@doe",
+  "phone" : "120"
+}
+
+
+
+
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "code": "12345",
+  "name": "ปากกา",
+  "price": 25.5,
+  "cost": 10.0,
+  "note": "สินค้าทดสอบ"
+}
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "name": "ปากกา",
+  "price": 25.5,
+  "cost": 10.0,
+  "note": "code product error"
+}
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "code": "99999",
+  "name": "",
+  "price": -50,
+  "cost": 10.0,
+  "note": "name product / price error"
+}
+
+
+
+
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "code": "12345",
+  "name": "Leather Bag",
+  "price": 299.50,
+  "cost": 150.00,
+  "note": "สินค้าขายดี"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "code": "12A45",
+  "name": "Leather Bag",
+  "price": 299.50,
+  "cost": 150.00,
+  "note": ""
+}
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "code": "55555",
+  "name": "Bag",
+  "price": "xx",
+  "cost": 100.50
+}
+
+
+
+
+
+
+
+
+
+###
+GET http://localhost:3000/api/role
+
+###
+GET http://localhost:3000/api/role/1
+
+
+###
+POST http://localhost:3000/api/role
+Content-Type:  application/json
+
+{
+    "name" : "ultra_admin"
+
+}
