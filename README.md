@@ -8,7 +8,7 @@ This project is part of a backend development practice focusing on clean archite
 ## 📄 Project Documentation
 
 Full project report (Microsoft Word / Google Docs):  
-🔗 https://docs.google.com/document/d/1DH_DdP_KcoAiS6wv_D6F82-7o9Jl_I3i/edit?usp=drive_link
+🔗 https://docs.google.com/document/d/12AnZL_rXUEa-DFDReKI90a57YEVwG209/edit?usp=sharing&ouid=112031693800479497118&rtpof=true&sd=true
 
 ---
 
