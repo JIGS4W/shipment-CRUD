@@ -1,14 +1,14 @@
-import Database from "better-sqlite3"
+import Database from 'better-sqlite3'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
-async function initializeDatabase() {
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
-    const option = { verbose: console.log};
-    const db = new Database('app.db',option);
-    return db;
-    
-}
+const dbPath = path.resolve(__dirname, '../../app.db')
 
-const db = await initializeDatabase();
+console.log('Connected to DB at:', dbPath)
 
-export default db;
-// export const db = new Database('app.db')
+const db = new Database(dbPath)
+
+export default db
