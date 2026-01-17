@@ -15,10 +15,8 @@
 
 ## 📑 Project Documentation
 
-📘 **Full Project Report (Microsoft Word)**  
-🔗 [Click to view report]([https://drive.google.com/your-word-link-here](https://docs.google.com/document/d/1DH_DdP_KcoAiS6wv_D6F82-7o9Jl_I3i/edit?usp=sharing&ouid=112031693800479497118&rtpof=true&sd=true))
-
-> *(Replace with your own Google Drive link)*
+📘 **Full Project Report (Microsoft Word / Google Docs)**  
+🔗 [Click to view report](https://docs.google.com/document/d/1DH_DdP_KcoAiS6wv_D6F82-7o9Jl_I3i/edit?usp=drive_link&ouid=112031693800479497118&rtpof=true&sd=true)
 
 ---
 
