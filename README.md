@@ -1,31 +1,35 @@
-# 🚚 Shipment CRUD API
+<div align="center">
 
-ระบบจัดการข้อมูลการขนส่งสินค้า (Shipment Management System)  
-พัฒนาโดยใช้ **Node.js + TypeScript + Hono + SQLite**
+# 🚚 Shipment Management System API
 
-รองรับการทำงานแบบ RESTful API ครบทุกฟังก์ชัน CRUD
-
----
-
-## 📄 Project Report
-
-📘 รายงานฉบับสมบูรณ์ (Word):
-
-👉 https://drive.google.com/your-word-link-here
-
-*(เปลี่ยนเป็นลิงก์ไฟล์ Word ของคุณเอง)*
+### RESTful API for Shipment Tracking & Management  
+**Built with Node.js • TypeScript • Hono • SQLite**
 
 ---
 
-## 🛠️ Tech Stack
+📦 Simple • Clean • Scalable • Educational Project
 
-- Node.js
-- TypeScript
-- Hono Framework
-- SQLite (better-sqlite3)
-- REST Client (VS Code)
+</div>
 
 ---
 
-## 📂 Project Structure
+## 📑 Project Documentation
+
+📘 **Full Project Report (Microsoft Word)**  
+🔗 [Click to view report]([https://drive.google.com/your-word-link-here](https://docs.google.com/document/d/1DH_DdP_KcoAiS6wv_D6F82-7o9Jl_I3i/edit?usp=sharing&ouid=112031693800479497118&rtpof=true&sd=true))
+
+> *(Replace with your own Google Drive link)*
+
+---
+
+## 🧠 Project Overview
+
+This project is a backend RESTful API for managing shipment information.  
+It allows users to create, read, update, and delete shipment records efficiently.
+
+Designed with clean architecture principles for learning modern backend development.
+
+---
+
+## 🏗️ System Architecture
 
